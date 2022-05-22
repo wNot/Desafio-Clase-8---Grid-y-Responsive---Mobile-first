@@ -271,6 +271,10 @@ body
      display: block;
      cursor: pointer;
  }
+ .main
+ {
+    height: calc(100vh -7rem);
+ }
 
  .navbar
  {
