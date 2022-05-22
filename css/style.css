@@ -271,7 +271,7 @@ body
 /* ///////////////////////////////// MEDIA QUERY ///////////////////////////////// */
 
 /* @media (max-width: 460px) */
-@media only screen and (max-device-width: 460px)
+@media only screen and (max-device-width: 480px)
 
 {
 
@@ -335,6 +335,12 @@ body
  .main
  {
     height: calc(100vh -7rem);
+ }
+
+ .sn__list
+ {
+     flex-direction: row;
+     flex-wrap: wrap;
  }
  
 }
