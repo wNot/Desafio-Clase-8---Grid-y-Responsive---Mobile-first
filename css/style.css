@@ -383,8 +383,6 @@ body
  }
  .main__img img
  {
-    max-height: 100%;
-    width: auto;
     flex-wrap: wrap;
  }
 
