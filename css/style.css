@@ -155,6 +155,7 @@ body
     justify-content: center;
 }
 
+
 .main__img img
 {
     max-width: 500px;
@@ -220,10 +221,41 @@ body
     padding-top: 50px;
     justify-content: space-between;
     /* list-style-type: none; */
-    margin: 0px 40px;
+    margin: 10px 40px;
     /* font-size: large; */
     gap: 6rem;
 }
+
+
+
+
+
+
+/* ///////////////////////////////// FOTOS ///////////////////////////////// */
+
+
+
+
+
+
+.main__fotos
+{
+    max-width: auto;
+    max-height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.main__foto
+{
+    max-width: auto;
+    max-height: 500px;
+    border: solid rgba(145, 3, 3, 0.678) 2px;
+}
+
+
 
 
 
