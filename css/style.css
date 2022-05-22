@@ -38,6 +38,9 @@ body
 {
     border-radius: 4px;
     /* box-shadow: -1px 1px 7px 0px black; */
+    
+    animation: fadeInDown ease;
+    animation-duration: 1.5s;
 }
 
 .header
@@ -51,6 +54,9 @@ body
     justify-items: center;
     border-radius: 15px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.466);
+    
+    animation: fadeInDown;
+    animation-duration: 1s;
 }
 
 /* -------------Logo-------------*/
@@ -229,6 +235,9 @@ body
     border-top: 1px solid rgba(255, 255, 255, 0.575);
     border-radius: 2rem;
     background-color: rgba(0, 0, 0, 0.637);
+
+    animation: fadeInUp;
+    animation-duration: 1s;
 }
 .footer__img
 {
@@ -261,8 +270,13 @@ body
 
 /* ///////////////////////////////// MEDIA QUERY ///////////////////////////////// */
 
-@media (max-width: 460px)
+/* @media (max-width: 460px) */
+@media only screen and (max-device-width: 460px)
+
 {
+
+/* -------------Header-Navbar-------------*/
+
  .header
  {
     justify-content: space-between;
@@ -272,10 +286,7 @@ body
      display: block;
      cursor: pointer;
  }
- .main
- {
-    height: calc(100vh -7rem);
- }
+
  .navbar
  {
      column-width: 100%;
@@ -320,9 +331,11 @@ body
     visibility: visible;
  }
 
- /* .header #nav-hambur:checked ~ .hamburger span
+ /* -------------Main-------------*/
+ .main
  {
-    background-color: transparent;
- } */
+    height: calc(100vh -7rem);
+ }
+ 
 }
 
