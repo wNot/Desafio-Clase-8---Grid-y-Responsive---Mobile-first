@@ -404,18 +404,15 @@ body
 
  .main__fotos
  {
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-content: center;
  }
 
  .main__fotos img
  {
-    width: 75vw;
+    width: 50vw;
  }
-
-
-
 
 
 
