@@ -159,7 +159,10 @@ body
 .main__img img
 {
     max-width: 500px;
+    height: auto;
+    
     opacity: 70%;
+    display: block;
 
     animation: pulse ease-in-out;
     animation-duration: 3s ;
