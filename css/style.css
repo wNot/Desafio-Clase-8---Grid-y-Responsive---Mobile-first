@@ -69,6 +69,7 @@ body
 {
     width: 30px;
     height: 30px;
+    margin-left: 20px;
 }
 
 /* -------------Nav-------------*/
@@ -275,7 +276,6 @@ body
  {
     height: calc(100vh -7rem);
  }
-
  .navbar
  {
      column-width: 100%;
