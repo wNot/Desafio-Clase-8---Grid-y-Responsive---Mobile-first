@@ -389,7 +389,7 @@ body
  }
  .main__img img
  {
-    scale: 50%;
+    width: 75vw;
  }
 
 
