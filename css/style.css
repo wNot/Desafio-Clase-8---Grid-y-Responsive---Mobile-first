@@ -260,16 +260,11 @@ body
 
 /* ///////////////////////////////// MEDIA QUERY ///////////////////////////////// */
 
-@media only screen and (max-width: 480px)
+@media (max-width: 480px)
 {
  .header
  {
     justify-content: space-between;
-    height: 20vh;
- }
- .footer
- {
-    height: 20vh; 
  }
 
  .hamburger
@@ -278,18 +273,6 @@ body
      cursor: pointer;
      float: right;
  }
- .barras
- {
-    width: 50px;
-    height: 6px;
-    margin: 10px auto;
- }
- .imglogo
-{
-    width: 60px;
-    height: 60px;
-}
-
  .navbar
  {
      column-width: 100%;
