@@ -369,23 +369,27 @@ body
     visibility: visible;
  }
 
- /* -------------Main-------------*/
+ /* -------------Main General-------------*/
  .main
  {
     height: calc(100vh -7rem);
  }
 
+
+ /* -------------Main-Index-------------*/
  .main__img
  {
     flex-wrap: wrap;
  }
  .main__img img
  {
-    max-width: 100%;
-    height: auto;
+    max-height: 100%;
+    width: auto;
     flex-wrap: wrap;
  }
 
+
+ /* -------------Main-Sobrenosotros-------------*/
  .sn__list
  {
      flex-direction: row;
@@ -393,5 +397,7 @@ body
      gap: 3rem;
  }
  
+
+ /* -------------Main-------------*/
 }
 
