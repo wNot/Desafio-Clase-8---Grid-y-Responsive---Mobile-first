@@ -144,7 +144,7 @@ body
     text-align: center;
     position: relative;
     margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     min-height: calc(100vh - 7rem);
 }
 
@@ -159,10 +159,7 @@ body
 .main__img img
 {
     max-width: 500px;
-    height: auto;
-    
     opacity: 70%;
-    display: block;
 
     animation: pulse ease-in-out;
     animation-duration: 3s ;
@@ -382,11 +379,17 @@ body
  /* -------------Main-Index-------------*/
  .main__img
  {
+     display: flex;
     flex-wrap: wrap;
+    align-content: center;
+    height: 100vh;
+    max-height: 100%;
+    width: auto;
  }
  .main__img img
  {
-    flex-wrap: wrap;
+    height: auto;
+    width: 400px;
  }
 
 
