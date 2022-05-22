@@ -144,7 +144,7 @@ body
     text-align: center;
     position: relative;
     margin-top: 100px;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
     min-height: calc(100vh - 7rem);
 }
 
@@ -386,12 +386,10 @@ body
      display: flex;
     flex-wrap: wrap;
     align-content: center;
-    max-height: 100%;
-    width: auto;
  }
  .main__img img
  {
-    width: 50%px;
+    scale: 50%;
  }
 
 
