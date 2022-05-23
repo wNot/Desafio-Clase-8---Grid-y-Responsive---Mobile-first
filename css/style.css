@@ -27,7 +27,24 @@ body
     grid-template: 
     "header" 3rem
     "main" auto
+    "goUp" 1.4rem
     "footer" 4rem
+}
+
+
+.goUp
+{
+
+    grid-area: goUp;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 3rem;
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.842));
+    
 }
 
 #nav-hambur
