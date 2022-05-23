@@ -261,9 +261,22 @@ body
 }
 
 
+/* ///////////////////////////////// CONTACTO ///////////////////////////////// */
 
+.main__contacto
+{
+    /* display: block;
+    flex-direction: column;
+    gap: 25px;
+    margin: 50px 50px;
+    align-items: center; */
+}
 
-
+.main__form
+{
+    display: flex;
+    width: 75vw;
+}
 
 /* ///////////////////////////////// FOOTER ///////////////////////////////// */
 .footer
@@ -411,8 +424,13 @@ body
 
  .main__fotos img
  {
-    width: 50vw;
+    width: 75vw;
  }
+
+
+/* -------------Main-Contacto------------*/
+
+
 
 
 
