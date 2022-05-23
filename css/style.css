@@ -135,7 +135,7 @@ body
 
 
 
-/* ///////////////////////////////// MAIN ///////////////////////////////// */
+/* ///////////////////////////////// MAIN - GENERAL ///////////////////////////////// */
 .main
 {
     grid-area: main;
@@ -149,6 +149,8 @@ body
     min-height: calc(100vh - 7rem);
 }
 
+
+/* ///////////////////////////////// INDEX ///////////////////////////////// */
 .main__img 
 {
     margin: 0;
@@ -309,6 +311,31 @@ body
     height: 400%;
     border-radius: 2rem;
 }
+/* ///////////////////////////////// TIENDA ///////////////////////////////// */
+
+.main__tienda
+{
+    display: flex;
+
+}
+
+.main__tienda ul
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.main__tienda ul li
+{
+    display: block;
+    list-style-type: none
+}
+
+.tienda__img
+{
+    height: 70px;
+}
+
+
 
 /* ///////////////////////////////// FOOTER ///////////////////////////////// */
 .footer
