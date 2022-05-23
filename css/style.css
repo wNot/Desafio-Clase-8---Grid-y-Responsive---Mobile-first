@@ -299,7 +299,7 @@ body
 .scale img:hover 
 { 
     margin: 10px;
-    padding: 10px; 
+    /* padding: 10px;  */
     background-color: rgba(0, 0, 0, 0.863);
     position: relative;
     transform: scale(1.2); 
