@@ -351,6 +351,7 @@ body
      opacity: 0;
      visibility: hidden;
      /* background-color: black; */
+     transition: 0.3s;
      z-index: 2;
  }
  .navbar ul
@@ -384,9 +385,10 @@ body
  {
     opacity: 1;
     visibility: visible;
-    transition: 1s;
-    
+    transition: 0.8s;
  }
+
+
 
  /* -------------Main General-------------*/
  .main
@@ -398,10 +400,12 @@ body
  /* -------------Main-Index-------------*/
  .main__img
  {
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     align-content: center;
  }
+
+
  .main__img img
  {
     width: 75vw;
