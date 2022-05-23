@@ -385,7 +385,7 @@ body
     animation: flipInX;
     animation-duration: 1s;
     height: 70px;
-    filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.329));
+    filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.328));
 }
 .tienda__img :hover
 {
