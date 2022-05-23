@@ -214,8 +214,10 @@ body
 {
     background-color: rgba(0, 0, 0, 0.767);
     font-size:larger;
-    margin: 50PX 0;
+    margin: 50PX 0px;
     padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 20px;
     line-height: 2rem;
 
@@ -411,7 +413,7 @@ body
      opacity: 0;
      visibility: hidden;
      /* background-color: black; */
-     transition: 0.3s;
+     transition: 0.2s;
      z-index: 2;
  }
  .navbar ul
