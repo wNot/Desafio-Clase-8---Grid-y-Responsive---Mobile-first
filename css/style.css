@@ -27,7 +27,6 @@ body
     grid-template: 
     "header" 3rem
     "main" auto
-    "goUp" 1.4rem
     "footer" 4rem
 }
 
