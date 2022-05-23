@@ -322,12 +322,13 @@ body
 .main__tienda ul
 {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    list-style-type: none;
 }
 .main__tienda ul li
 {
-    display: block;
-    list-style-type: none
+    padding: 20px;
 }
 
 .tienda__img
