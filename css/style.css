@@ -362,6 +362,7 @@ body
      align-items: center;
      gap: 1rem;
      font-size: x-large;
+     
  }
  .navbar ul div
  {
@@ -369,6 +370,7 @@ body
      background-color: rgba(0, 0, 0, 0.918);
      text-align-last: center;
      border: 1px solid rgba(255, 255, 255, 0.534);
+     
 
  }
  .navbar ul li
@@ -382,6 +384,8 @@ body
  {
     opacity: 1;
     visibility: visible;
+    transition: 1s;
+    
  }
 
  /* -------------Main General-------------*/
